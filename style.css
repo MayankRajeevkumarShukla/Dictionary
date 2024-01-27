@@ -1,0 +1,102 @@
+body {
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+}
+
+.divChild {
+    position: relative;
+    width: 100%; 
+    max-width: 300px; 
+    height: 250px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btnChild {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    background: black;
+    border-radius: 10px;
+}
+
+.btnChild img {
+    width: 31px;
+    filter: invert(100%);
+}
+
+.btnChild:hover {
+    background-color: rgb(230, 50, 50);
+}
+
+.input {
+    background-color: #D9D9D9;
+    width: 100%; 
+    height: 45px;
+    border-radius: 15px;
+    font-size: 1.20rem;
+}
+
+.sbtn img {
+    width: 25px;
+    filter: invert(100%);
+}
+
+.sbtn {
+    padding: 8px;
+    border-radius: 25px;
+    background-color: black;
+    margin: 10px;
+}
+
+.hbtn img {
+    width: 25px;
+    filter: invert(100%);
+}
+
+.hbtn {
+    padding: 8px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.sbtn:hover, .hbtn:hover {
+    background-color: #2980b9;
+    filter: invert(100%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.imgD {
+    width: 56px;
+    margin-right: 29px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 90%; 
+        max-width: none; 
+        margin: 0 auto;
+    }
+}
